@@ -13,7 +13,9 @@
 <!--  <input type="submit" name="commit" value="Create my account" class="btn btn-primary" data-disable-with="Create my account">-->
 <!--</form>-->
 
-<%= form_with url: users_path do |f| %>
+<%
+=begin%>
+ <%= form_with url: users_path do |f| %>
   <%= f.label :name, "Name:" %>
   <%= f.text_field :name %>
 
@@ -24,4 +26,15 @@
   <%= f.password_field :password %>
 
   <%= f.submit "Submit" %>
-<% end %>
+<% end %> 
+<%
+=end%>
+
+<%= form_with model: @user do |f| %>
+  <%= f.text_field :name, placeholder: "Your name here" %>
+
+  <%= f.text_field :email, placeholder: "Your email here"  %>
+
+  <%= f.password_field :password, placeholder: "Password" %>
+  <%= f.submit "Create" %>
+<% end %> 
