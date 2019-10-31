@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-    # @user = User.new(name: params[:name], email: params[:email], password: params[:password])
+
     if @user.save
       redirect_to new_user_path
     else
@@ -24,7 +24,6 @@ class UsersController < ApplicationController
       flash[:success] = 'User was successfully updated.'
       redirect_to @user
     else
-      # debugger
       render :edit
     end
   end
