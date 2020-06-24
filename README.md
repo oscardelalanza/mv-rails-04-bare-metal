@@ -8,8 +8,14 @@ Ruby - Rails - ActiveRecord - PostgreSQL - SQLite
 
 ### Authors
 
-- **Oscar De La Lanza** - [@oscardelalanza](https://github.com/oscardelalanza)
-- **Tiago Ferreira** - [@ferreirati](https://github.com/ferreirati)
+👤 **Oscar De La Lanza**
+
+- Github: [@oscardelalanza](https://github.com/oscardelalanza)
+- Twitter: [@oscardelalanza](https://twitter.com/oscardelalanza)
+- Linkedin: [Oscar De La Lanza](https://linkedin.com/in/oscardelalanza)
+- Email: [oscardelalanza@gmail.com](mailto:oscardelalanza@gmail.com)
+
+👤 **Tiago Ferreira** - [@ferreirati](https://github.com/ferreirati)
 
 ### Links
 
