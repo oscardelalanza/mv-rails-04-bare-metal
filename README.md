@@ -1,6 +1,9 @@
 # Project: Bare metal forms with Rails
 
-Basic usage of Rails routes, controller, models and views.
+> This project is intended for practice the different ways to build a form in rails that can send parameters to a controller
+> so that it can build an instance of a model with those parameters.
+
+![screenshot](screenshots/bare-metal.png)
 
 ### Technology
 
