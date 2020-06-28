@@ -56,8 +56,8 @@ To clone the project in your local environment do the following
 
 ### Deployment
 
-- `rails server`
+- To start the local server run the command `rails server`
 
-### Integration tests
+### Run tests
 
-- `rails tests`
+- Run the command `rails tests`
