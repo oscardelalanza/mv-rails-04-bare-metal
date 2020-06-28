@@ -35,15 +35,19 @@ Ruby - Rails - ActiveRecord - PostgreSQL - SQLite
 - rails g scaffold User name:string email:string password_digest:string
 
 ### Installation
+
 - `bundle --without production`
 - `yarn install --check-files`
-- `rails db:migrate` 
+- `rails db:migrate`
 
-### Star development server
+### Usage
+
+- Go to the path `users/new` in your local server to get access to the form. 
+
+### Deployment
+
 - `rails server`
 
-### Rails console
-- `rails console`
-
 ### Integration tests
+
 - `rails tests`
