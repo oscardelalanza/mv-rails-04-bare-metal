@@ -26,12 +26,14 @@ Ruby - Rails - ActiveRecord - PostgreSQL - SQLite
 - **Live** - [Demo on Heroku](https://sleepy-caverns-46639.herokuapp.com/)
 
 ### Database structure
+
 - users
   - name: STR, required, max:80
   - email: STR, required, index, unique, max:255
   - password_digest: STR
 
 ### Scaffolding commands
+
 - rails g scaffold User name:string email:string password_digest:string
 
 ### Installation
