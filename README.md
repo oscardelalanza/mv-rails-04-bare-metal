@@ -34,21 +34,21 @@ Ruby - Rails - ActiveRecord - PostgreSQL - SQLite
 
 ### Scaffolding commands
 
-- rails g scaffold User name:string email:string password_digest:string
+- `rails g scaffold User name:string email:string password_digest:string`
 
 ### Set Up
 
-To clone the project in your local environment do the following
+To clone the project in your local environment do the following.
 
-- Open a new `terminal` window and navigate to the directory where the project will be stored
-- Run the command `git clone git@github.com:oscardelalanza/mv-rails-04-bare-metal.git`
-- Run the command `cd mv-rails-04-bare-metal` to enter the project directory
+- Open a new `terminal` window and navigate to the directory where the project will be stored.
+- Run the command `git clone git@github.com:oscardelalanza/mv-rails-04-bare-metal.git`.
+- Run the command `cd mv-rails-04-bare-metal` to enter the project directory.
 
 ### Installation
 
-- Install the required gems running the command `bundle install --without production`
-- Install the required node modules running the command `yarn install --check-files`
-- Create and migrate the database running the command `rails db:migrate`
+- Install the required gems running the command `bundle install --without production`.
+- Install the required node modules running the command `yarn install --check-files`.
+- Create and migrate the database running the command `rails db:migrate`.
 
 ### Usage
 
@@ -56,8 +56,8 @@ To clone the project in your local environment do the following
 
 ### Deployment
 
-- To start the local server run the command `rails server`
+- To start the local server run the command `rails server`.
 
 ### Run tests
 
-- Run the command `rails tests`
+- Run the command `rails tests`.
